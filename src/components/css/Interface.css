@@ -1,0 +1,32 @@
+body {
+  background-color: #add8e6;
+}
+
+.jumbotron {
+  margin-top: 3em;
+  background-color: #add8e6;
+}
+
+.card {
+  margin-top: 3em;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.credits {
+  text-align: center;
+  opacity: 0.75;
+}
+
+.fullcredits {
+  text-align: center;
+  opacity: 0.75;
+  margin-top: 3em;
+}
+
+h3 {
+  text-align: center;
+}
