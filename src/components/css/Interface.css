@@ -22,9 +22,9 @@ h1 {
 }
 
 .fullcredits {
-  text-align: center;
   opacity: 0.75;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 h3 {
