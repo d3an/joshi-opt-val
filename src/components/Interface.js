@@ -28,15 +28,9 @@ export default class OptionValuation extends Component {
 
     axios.get(`https://montecarlo.monti.workers.dev/?type=${this.state.type}&dte=${this.state.daysToExp}&strike=${this.state.strike}&rf=${this.state.riskFreeRate}&spot=${this.state.spot}&vol=${this.state.volatility}&steps=${this.state.steps}`)
       .then(res => {
-        // console.log(res);
-        // console.log(res.data);
         this.setState({'payoff': res.data});
       })
       .catch(err => {
-        // console.log(err)
-        // console.log("Potentially exceeded capacity limits...")
-        // console.log("Request with step count > 10000 is not consistent.")
-        // console.log("Try again with step count <= 10000")
       });
   }
 
@@ -47,7 +41,7 @@ export default class OptionValuation extends Component {
             <Row>
               <Col xs={12} md={12}>
                 <h1>Monte Carlo Option Valuation</h1>
-                <p className='credits'>Developed by James Bury &amp; Mark Joshi</p>
+                <p className='credits'>Developed by James Bury &amp; Mark Joshi. Powered by C++ and WebAssembly.</p>
               </Col>
             </Row>
             <Row>
