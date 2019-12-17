@@ -10,6 +10,8 @@ class App extends Component {
       <Router>
           <div>
             <Route exact path="/" component={Interface} />
+            <Route exact path="/index.htm" component={Interface} />
+            <Route exact path="/index.html" component={Interface} />
 
             {/* <footer>Copyright &copy; James Bury 2020.</footer>*/}
           </div>
