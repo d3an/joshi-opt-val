@@ -41,7 +41,7 @@ export default class OptionValuation extends Component {
             <Row>
               <Col xs={12} md={12}>
                 <h1>Monte Carlo Option Valuation</h1>
-                <p className='credits'>Developed by James Bury &amp; Mark Joshi. Powered by C++ and WebAssembly.</p>
+                <p className='credits'>Developed by James Bury. Powered by C++ and WebAssembly.</p>
               </Col>
             </Row>
             <Row>
